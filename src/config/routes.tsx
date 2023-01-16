@@ -1,6 +1,6 @@
 import { RouteRecordRaw } from 'vue-router'
-import { First } from '../components/welcom/first';
-import { Sencond } from '../components/welcom/sencond';
+import { First } from '../components/welcome/Frist';
+import { Sencond } from '../components/welcome/Sencond';
 import { Bar } from "../views/Bar";
 import { Foo } from "../views/Foo";
 import { Welcome } from '../views/Welcome';

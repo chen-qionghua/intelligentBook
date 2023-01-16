@@ -1,0 +1,32 @@
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  >.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    background: var(--welcome-card-bg);
+    border-radius: 8px;
+    padding: 16px;
+    margin:16px 16px 0;
+    text-align: center;
+    >h2{
+      margin-top: 40px;
+    }
+  }
+  >.action{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0 16px;
+    font-size: 32px;
+    padding: 24px 0;
+    color:var(--welcome-text);
+    >.fake{
+      visibility: hidden;
+    }
+  }
+}
